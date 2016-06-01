@@ -44,7 +44,7 @@ ENV sqldata c:\\sql\\data
 ENV sqlbackup c:\\sql\\backup
 
 # Expose not supported as of Win2016 TP4
-# EXPOSE 1433
+EXPOSE 1433
 
 #designate host-mounted volume for data and backups
 # not yet supported as of TP4 - only cmd line "-v"
